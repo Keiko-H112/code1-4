@@ -1,0 +1,37 @@
+@media screen and (max-width:600px) {
+
+  .inner {
+    padding: 10px;
+}
+
+.main-visual img {
+  height: calc(100vh - 60px);  /* 画像の高さをブラウザ下いっぱいまで広げます */
+}
+
+.about-content {
+  display: block;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.about-text h3 {
+  margin-top: 20px;
+}
+
+.bicycle-content {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.bicycle-content img {
+  width: 100%;
+}
+.bicycle-content article {
+  width: 100%;
+}
+article p {
+  margin-bottom: 20px;
+}
+
+}
